@@ -49,7 +49,7 @@ let reconnectTimeout: NodeJS.Timeout | null = null;
 let watchdogInterval: NodeJS.Timeout | null = null;
 export const socketConfig = {
   reconnectBaseInterval: 1000,
-  reconnectMaxInterval: 30000,
+  reconnectMaxInterval: 2500,
   reconnectMinInterval: 500,
   reconnectJitter: 0.25,
   offlineAttemptsThreshold: 2,
